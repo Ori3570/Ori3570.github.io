@@ -1,1 +1,270 @@
-<h1>welcome to my word !</h1>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>张旭 | 个人主页</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+      line-height: 1.8;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 36px auto;
+      background: #ffffff;
+      padding: 40px 42px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      flex-wrap: wrap;
+      padding-bottom: 24px;
+      border-bottom: 1px solid #e8e8e8;
+    }
+
+    .header img {
+      width: 160px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      background: #fafafa;
+    }
+
+    .header-text h1 {
+      margin: 0 0 10px 0;
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    .header-text p {
+      margin: 5px 0;
+      color: #555;
+      font-size: 16px;
+    }
+
+    h2 {
+      margin-top: 34px;
+      margin-bottom: 14px;
+      font-size: 22px;
+      font-weight: 600;
+      color: #1f1f1f;
+      border-left: 4px solid #5b7c99;
+      padding-left: 10px;
+    }
+
+    p {
+      margin: 8px 0;
+    }
+
+    ul {
+      margin: 8px 0;
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 12px;
+    }
+
+    .edu-item,
+    .project-item,
+    .activity-item,
+    .award-item {
+      margin-bottom: 18px;
+    }
+
+    .time {
+      color: #666;
+      font-size: 15px;
+    }
+
+    .sub {
+      color: #444;
+    }
+
+    a {
+      color: #2d5f8b;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .note {
+      color: #666;
+      font-size: 15px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 18px;
+      border-top: 1px solid #e8e8e8;
+      text-align: center;
+      color: #777;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      .container {
+        margin: 14px;
+        padding: 24px;
+      }
+
+      .header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .header img {
+        width: 140px;
+        height: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <img src="images/profile.jpg" alt="张旭照片" />
+      <div class="header-text">
+        <h1>张旭</h1>
+        <p>中国科学院大学 | 测绘科学与技术 | 硕士研究生</p>
+        <p>研究方向：InSAR、LiDAR、灾害遥感、影像大地测量</p>
+        <p>邮箱：<a href="mailto:cehuizhangxu@163.com">cehuizhangxu@163.com</a></p>
+        <p>GitHub：<a href="https://github.com/你的用户名" target="_blank">https://github.com/你的用户名</a></p>
+      </div>
+    </div>
+
+    <h2>个人简介</h2>
+    <p>
+      你好，我是张旭，目前就读于中国科学院大学测绘科学与技术专业。
+      本科毕业于山东农业大学，研究生阶段主要围绕 InSAR、LiDAR、灾害遥感与影像大地测量开展学习与实践。
+      我对遥感数据处理、地学应用、灾害监测以及相关技术的实际落地比较感兴趣，也希望在科研与工程实践中不断积累经验。
+    </p>
+
+    <h2>教育背景</h2>
+    <div class="edu-item">
+      <p><strong>中国科学院大学</strong> | 测绘科学与技术 | 硕士</p>
+      <p class="time">2023.09 – 2026.06</p>
+      <p class="sub">GPA：3.35/4.0</p>
+      <p class="sub">主修课程：激光雷达遥感、灾害遥感应急、影像大地测量学等。</p>
+    </div>
+
+    <div class="edu-item">
+      <p><strong>山东农业大学</strong> | 测绘科学与技术 | 本科</p>
+      <p class="time">2019.09 – 2023.06</p>
+      <p class="sub">GPA：3.84/4.0（专业前 5%）</p>
+      <p class="sub">主修课程：C++程序设计、地理信息系统设计与开发、数据结构、计算机图形学等。</p>
+    </div>
+
+    <h2>项目经历</h2>
+    <div class="project-item">
+      <p><strong>某大型水库地震灾害精密测量装备与协同监测技术及风险预警平台研发科研项目</strong></p>
+      <p class="time">2024</p>
+      <p>
+        负责课题三“水库地震形变空-天-地协同监测与异常探测技术”中的 InSAR 数据处理、图件绘制、
+        角反射器选址与实地布设等工作。
+      </p>
+    </div>
+
+    <div class="project-item">
+      <p><strong>科学出版社“大地测量与地球动力学丛书”《影像大地测量学：理论、方法与应用》</strong></p>
+      <p class="time">2024</p>
+      <p>
+        参与相关章节撰写，主要负责“影像大地测量地形重建方法”以及“区域地面沉降与基础设施健康监测”等内容。
+      </p>
+    </div>
+
+    <div class="project-item">
+      <p><strong>中国科学院大学《高级 InSAR 与 LiDAR 测量技术》课程</strong> | 助教</p>
+      <p class="time">2024.09</p>
+      <p>
+        参与课程教学辅助工作，协助相关内容讲解与实践支持。
+      </p>
+    </div>
+
+    <div class="project-item">
+      <p><strong>第二次青藏高原综合科学考察研究</strong>——任务九：地质环境与灾害，南亚通道沿线冻融灾害野外科考</p>
+      <p class="time">2023.09</p>
+      <p>
+        负责探地雷达操作、实地踏勘、无人机勘探以及照片采集等工作。
+      </p>
+    </div>
+
+    <h2>校园经历</h2>
+    <div class="activity-item">
+      <p><strong>中国科学院大学摄影协会</strong> | 副会长</p>
+      <p class="time">2023.09 – 2025.06</p>
+    </div>
+
+    <div class="activity-item">
+      <p><strong>中国科学院大学记者团</strong></p>
+      <p class="time">2023.09 – 2025.09</p>
+    </div>
+
+    <div class="activity-item">
+      <p><strong>中国科学院大学棒垒球协会</strong> | 队员</p>
+      <p class="time">2023.09 – 2025.09</p>
+    </div>
+
+    <div class="activity-item">
+      <p><strong>山东农业大学棒垒球协会</strong> | 队员</p>
+      <p class="time">2019.09 – 2023.06</p>
+    </div>
+
+    <h2>获奖与学术活动</h2>
+    <ul>
+      <li>全国大学生数学竞赛 三等奖（2020年9月）</li>
+      <li>山东省大学生物理竞赛 三等奖（2021年9月）</li>
+      <li>全国大学生测绘学科创新创业智能大赛——科技论文竞赛 特等奖（2022年8月）</li>
+      <li>2025年度 国科大三好学生（校级）</li>
+      <li>山东省测绘技能比赛 三等奖（2021年9月）</li>
+      <li>参加“大地测量与地球动力学暨第13届青藏高原新疆西伯利亚国际学术研讨会”（2025年8月）</li>
+      <li>参加“第一届雷达干涉测量学术研讨会”（2024年6月）</li>
+    </ul>
+
+    <h2>技能</h2>
+    <ul>
+      <li>英语：通过全国大学英语四级。</li>
+      <li>InSAR 数据处理：熟练掌握 GMTSAR、StaMPS、SNAP 等软件，具备 D-InSAR、TS-InSAR、Phase-gradient approach 等技术应用经验。</li>
+      <li>地学软件：熟练使用 ArcGIS、QGIS、AutoCAD 等软件。</li>
+      <li>编程：掌握 MATLAB、Python、C++ 等。</li>
+      <li>仪器设备：熟练使用无人机、全站仪、激光雷达等测绘仪器。</li>
+    </ul>
+
+    <h2>研究兴趣</h2>
+    <p>
+      当前较感兴趣的方向主要包括：InSAR 形变监测、LiDAR 测量技术、灾害遥感、影像大地测量、
+      地学数据处理与可视化等。
+    </p>
+
+    <h2>论文与成果</h2>
+    <p class="note">
+      这里可以后续补充你发表或参与发表的论文、会议摘要、书籍章节、竞赛论文等内容。
+    </p>
+    <ul>
+      <li>可在此处添加论文题目、作者、期刊/会议名称、年份。</li>
+      <li>也可以补充参与撰写的书籍章节、学术报告或其他成果。</li>
+    </ul>
+
+    <h2>联系方式</h2>
+    <p>邮箱：<a href="mailto:cehuizhangxu@163.com">cehuizhangxu@163.com</a></p>
+    <p>GitHub：<a href="https://github.com/你的用户名" target="_blank">你的 GitHub 主页</a></p>
+
+    <div class="footer">
+      © 2026 张旭
+    </div>
+  </div>
+</body>
+</html>
